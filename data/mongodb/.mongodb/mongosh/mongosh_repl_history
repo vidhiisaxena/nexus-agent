@@ -1,0 +1,5 @@
+exit
+db.test.find()
+db.test.insertOne({project: "nexus-agent", status:"running", timestamp: new Date()})
+use naxus-agent
+show dbs

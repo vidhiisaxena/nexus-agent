@@ -1,0 +1,19 @@
+{
+  "name": "nexus-agent",
+  "version": "1.0.0",
+  "description": "Full-stack nexus-agent project",
+  "private": true,
+  "workspaces": [
+    "server",
+    "mobile-app",
+    "kiosk-app"
+  ],
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "start:server": "cd server && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+

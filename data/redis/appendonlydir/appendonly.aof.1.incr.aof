@@ -1,0 +1,19 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$10
+nexus:test
+$16
+Hello from agent
+*3
+$3
+set
+$10
+nexus:test
+$21
+connection-successful
